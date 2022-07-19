@@ -27,9 +27,11 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px 10px #D1D1D1;
 }
+
 .container:last-child {
     margin-bottom: 30px;
 }
+
 .section-title {
     font-style: normal;
     font-size: 24px;
@@ -46,7 +48,7 @@ hr {
     .container {
         width: 90%;
     }
-  }
+}
 
 /* --------------------------- 
 common css end hare
@@ -56,12 +58,13 @@ common css end hare
 /* ----------------------------------
 Header section start from here
 -----------------------------------  */
-header{
+header {
     width: 100%;
     background-color: #562EFF;
     padding: 15px;
 }
-nav{
+
+nav {
     width: 80%;
     margin: auto;
     display: flex;
@@ -69,42 +72,51 @@ nav{
     justify-content: space-between;
     color: white;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icons img{
+
+.icons img {
     width: 50px;
     height: 50px;
 }
-.icons h1{
+
+.icons h1 {
     margin-left: 20px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
 }
-.nav-item{
+
+.nav-item {
     list-style: none;
-    margin:0px 20px;
+    margin: 0px 20px;
 }
-.nav-item a{
+
+.nav-item a {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.nav-item a:hover{
-background-color: white;
-color: #000000;
+
+.nav-item a:hover {
+    background-color: white;
+    color: #000000;
 }
-.nav-item img{
+
+.nav-item img {
     width: 50px;
     height: 50px;
     cursor: pointer;
 }
-.sub-menu{
+
+.sub-menu {
     display: none;
     position: absolute;
     background-color: white;
@@ -115,18 +127,22 @@ color: #000000;
     margin-left: -50px;
     border-radius: 5px;
 }
-.nav-item:hover .sub-menu{
+
+.nav-item:hover .sub-menu {
     display: block;
 }
-.sub-items{
+
+.sub-items {
     list-style: none;
     /* text-align: center; */
 }
-.sub-items:hover a{
+
+.sub-items:hover a {
     background-color: #562EFF;
     color: white;
 }
-.sub-items a{
+
+.sub-items a {
     width: 100%;
     display: inline-block;
     font-family: var(--Roboto-500);
@@ -136,34 +152,44 @@ color: #000000;
     padding: 10px 20px;
     border-radius: 0%;
 }
-.fa-user, .fa-lock, .fa-gear, .fa-right-from-bracket{
+
+.fa-user,
+.fa-lock,
+.fa-gear,
+.fa-right-from-bracket {
     padding: 0px 10px;
 }
 
 @media only screen and (max-width: 768px) {
-    nav{
+    nav {
         width: 90%;
     }
+
     .nav-visible {
         display: none;
     }
-    .icons img{
+
+    .icons img {
         width: 40px;
         height: 40px;
     }
-    .nav-item img{
+
+    .nav-item img {
         width: 40px;
         height: 40px;
     }
-  }
-  @media only screen and (max-width: 850px) {
-    nav{
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
         width: 90%;
     }
-    .sub-menu{
+
+    .sub-menu {
         margin-left: -150px;
     }
-  }
+}
+
 /* ----------------------------------
 top player section start from here
 -----------------------------------  */
@@ -192,16 +218,19 @@ top player section start from here
     font-size: 17px;
     margin-left: 20px;
 }
+
 @media only screen and (max-width: 1100px) {
     .players {
-     grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     .players {
-     grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-  }
+}
+
 /* -------------------------------------
 top player section end here
 ---------------------------------------- */
@@ -242,40 +271,46 @@ top blog section start from here
     text-decoration: none;
     color: #562EFF;
 }
+
 @media only screen and (max-width: 1200px) {
     .blogs {
-     grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-  }
- @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     .blog {
         display: flex;
         flex-direction: column;
     }
+
     .blogs .blog img {
         width: 100%;
         margin-right: 0px;
     }
+
     .blog .blog-discript h3 {
         font-size: 15px;
     }
-    
+
     .blog .blog-discript p {
         font-size: 10px;
         margin-top: 10px;
     }
-    
-  }
+
+}
+
 /*---------------------------------------
 Lates Course section start from here
 ----------------------------------------- */
-.courses{
+.courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
 }
+
 .courses .course img {
-width: 100%;
+    width: 100%;
 }
 
 .courses .course h3 {
@@ -308,10 +343,12 @@ width: 100%;
     color: gold;
     font-size: 15px;
 }
+
 .rattings-and-timing .ratting span {
     font-size: 15px;
 }
-.rattings-and-timing .timing{
+
+.rattings-and-timing .timing {
     font-family: var(--Open-sans-500);
     font-size: 14.6913px;
     line-height: 20px;
@@ -320,24 +357,27 @@ width: 100%;
     color: #FF4A60;
     padding: 5px 10px;
 }
-.rattings-and-timing .timing .fa-regular{
+
+.rattings-and-timing .timing .fa-regular {
     font-size: 1rem;
 }
 
 
 @media only screen and (max-width: 1200px) {
     .courses {
-     grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
-  @media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 900px) {
     .courses {
-     grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .rattings-and-timing {
         flex-wrap: wrap;
     }
-  }
+}
 
 /*---------------------------------------
 Lates Course section end here
