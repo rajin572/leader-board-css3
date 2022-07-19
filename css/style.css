@@ -132,6 +132,11 @@ color: #000000;
 .fa-user, .fa-lock, .fa-gear, .fa-right-from-bracket{
     padding: 0px 10px;
 }
+@media only screen and (max-width: 1200px) {
+    .sub-menu{
+        margin-left: -150px;
+    }
+  }
 
 @media only screen and (max-width: 768px) {
     .nav-visible {
