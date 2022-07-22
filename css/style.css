@@ -59,8 +59,11 @@ common css end hare
 Header section start from here
 -----------------------------------  */
 header {
+    position: sticky;
+    top: 0px;
     width: 100%;
-    background-color: #562EFF;
+    background-color: rgba(86, 46, 255);
+    border-bottom: 1px solid #000000;
     padding: 15px;
 }
 
